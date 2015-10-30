@@ -7,7 +7,7 @@ title: The Complex
 subtitle:
 description:
 author: Yang Fan 
-language: en
+language: default
 timezone: America/Los_Angeles
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: freemind
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
