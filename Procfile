@@ -1,1 +1,1 @@
-web: hexo server -p 80
+web: hexo server -p $PORT
