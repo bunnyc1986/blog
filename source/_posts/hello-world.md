@@ -8,13 +8,13 @@ tags:
 ---
 I have been planning to start a blog for a very long time (about 2 years). The first option is to use well known Wordpress, but I am not a PHP expert, and I don't want to setup a database somewhere. Then I start to think about building a blog engine in Node.js with Express, then project paused mostly because I am lazy and could not focus on the blog project. :P
 
-Untill recently, I start to work on a hardward project and found many trick is interesting to be shared. I finally get this blog started and registered a new domain for it. So, this time I am serious about it. I will share my diccovery through the project and daily work. And also, I might put on some interesting personal story too. :)
+Untill recently, I start to work on a hardward project and found many trick is interesting to be shared. I finally get this blog started and registered a new domain for it. So, this time I am serious about it. I will share my discovery through the project and daily work. And also, I might put on some interesting personal story too. :)
 
 So today, my first post is about how was this blog setup.
 
 # Thank you, Hexo
 
-[Hexo](https://hexo.io/) is a very light weight blog engine written in Node.js. I like it because it works perfectlly with a simple hosting service like [Heroku](https://www.heroku.com/), and not database is needed. There are many pre-created themes to choose from. The writing and posting are executed from command line tool. The posts are just files on file system. So if you use service like heroku, or other source control service, you will have the full commit log as your activity log. The styling and formatting is very simplified and unified, just [Markdown](https://en.wikipedia.org/wiki/Markdown). Basically, it has every thing I want to use on my blog.
+[Hexo](https://hexo.io/) is a very light weight blog engine written in Node.js. I like it because it works perfectly with a simple hosting service like [Heroku](https://www.heroku.com/), and not database is needed. There are many pre-created themes to choose from. The writing and posting are executed from command line tool. The posts are just files on file system. So if you use service like Heroku, or other source control service, you will have the full commit log as your activity log. The styling and formatting is very simplified and unified, just [Markdown](https://en.wikipedia.org/wiki/Markdown). Basically, it has every thing I want to use on my blog.
 
 ## Get started!
 
@@ -66,7 +66,7 @@ Installing Hexo is very simple task. The detailed [install guide](https://hexo.i
 
 ### Deploy your blog to Heroku
 
-If the site looks good to you. You can start deploying it to Heroku and make is public.
+If the site looks good to you. You can start deploying it to Heroku and make it public.
 
 * First thing, you need to create a `Procfile` file as following:
   ``` bash
@@ -98,7 +98,7 @@ If the site looks good to you. You can start deploying it to Heroku and make is 
   $ git push heroku master
   ```
   Once the files are pushed, you will see message indicating node application detected. And the message shows you Heroku is deploying the code.
-* Go to your Heroku app settings. Find and visit the 'Heroku Domain'. Your blog should be live now. Woohoo~!
+* Go to your Heroku app settings. Find and visit the `Heroku Domain`. Your blog should be live now. Woohoo~!
 
 ### Write a post
 
