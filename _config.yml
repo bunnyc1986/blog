@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: The Complex 
+title: The Complex
 subtitle:
 description:
-author: Yang Fan 
+author: Yang Fan
 language: default
 timezone: America/Los_Angeles
 
@@ -70,3 +70,6 @@ theme: freemind
 deploy:
   type:heroku
   repo:git@heroku.com:bunny-hexo.git
+
+# Disqus
+disqus_shortname: bunnyc1986
