@@ -8,7 +8,7 @@ tags:
 ---
 I have been planning to start a blog for a very long time (about 2 years). The first option is to use well known Wordpress, but I am not a PHP expert, and I don't want to setup a database somewhere. Then I start to think about building a blog engine in Node.js with Express, then project paused mostly because I am lazy and could not focus on the blog project. :P
 
-Untill recently, I start to work on a hardward project and found many trick is interesting to be shared. I finally get this blog started and registered a new domain for it. So, this time I am serious about it. I will share my discovery through the project and daily work. And also, I might put on some interesting personal story too. :)
+Until recently, I start to work on a hardware project and found many trick is interesting to be shared. I finally get this blog started and registered a new domain for it. So, this time I am serious about it. I will share my discovery through the project and daily work. And also, I might put on some interesting personal story too. :)
 
 So today, my first post is about how was this blog setup.
 
