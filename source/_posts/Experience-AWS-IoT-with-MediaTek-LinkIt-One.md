@@ -123,7 +123,7 @@ MediaTek ported the [AWS IoT Embedded C SDK](https://github.com/aws/aws-iot-devi
   * Switch to `aws_mtk_iot_config.h` file tab.
   * Overwrite MQTT and credential settings. This is the part you copied from console.
   * Update the WIFI setting.
-  ```
+  ```c
 /* change Wifi settings here */
 #define WIFI_AP "MyRouter" // Your Wifi's SSID
 #define WIFI_PASSWORD "XXXXXX" // Your Wifi's password
